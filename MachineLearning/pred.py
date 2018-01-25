@@ -3,8 +3,6 @@ import os
 from keras.preprocessing.image import load_img, img_to_array
 import numpy as np
 import keras.backend as K
-from train import SqueezeNet
-from consts import IMAGE_WIDTH, IMAGE_HEIGHT
 from keras.models import load_model, model_from_json
 import time
 from PIL import Image
